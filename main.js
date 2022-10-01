@@ -4,7 +4,7 @@ $(document).ready(() => {
         
         $('#textos').css({
             'top': 35 + (scroll/15) + '%',
-            'left': 30 + '%'
+            'left': 40 + '%'
         })
         
         $('#lua').css({
@@ -20,7 +20,7 @@ $(document).ready(() => {
             /* Parallax in Texto */
             $('#textos').css({
                 'top': 35 + (scroll/15) + '%',
-                'left': 30 + (scroll/15) + '%'
+                'left': 40 + (scroll/15) + '%'
             })
             /* Parallax Effect in lua */
             let rotacaoLua = (20 + scroll / 2);
